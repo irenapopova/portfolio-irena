@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Irena Popova - portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- main container -->
+  <div class="container" id="home">
+
+    <!-- header with logo and nav links -->
+    <header class="header" id="nav-bar">
+      <nav class="navbar">
+        <div class="logo">
+          <p class="logo-text">{IP}</p>
+        </div>
+  <ul>
+       <li><i class="fa fa-home "></i><a href="#home">Home</a></li>
+     <li><i class="fa fa-briefcase "></i><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+      <li><i class="fa fa-user "></i><a href="#about-me">About Me</a></li>
+      <li><i class="fa fa-envelope "></i><a href="#contact-me">Contact Me</a></li>
+          <li title="github profile"><a href="https://github.com/irenapopova" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Profile - homepage -->
+    <section class="profile-container">
+      <h1 class="profile-title">Hello, my name is <span class="profile-name" data-text="Irena Popova">  Irena
+                 Popova</span></h1>
+      <p class="profile-text">
+        I am a <span class="profile-role">Full Stuck (MERN) Developer</span> living in Berlin, Germany
+      </p>
+      <a href="#about-me" class="contact-link">
+        Know More &nbsp;&nbsp &rarr;
+      </a>
+      <div class="down-arrow"></div>
+    </section>
+
+    <!-- Portfolio - projects -->
+    <section class="portfolio-container" id="portfolio">
+      <h1 class="portfolio-title">My Recent Work</h1>
+      <p class="portfolio-text">
+        Take a look at some of my personal projects
+      </p>
+      <!-- project cards content is generated from javascript - projects.js -->
+      <div class="projects-container" id="projects"></div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-container" id="about-me">
+      <div class="aboutme-wrapper">
+        <h1 class="about-title">About Me</h1>
+        <div class="aboutme-content">
+          <p>My name is <span class="main-text">Irena Popova</span>, and I live in 
+            <span class="main-text">Berlin, Germany</span>. My Master's degree is in Applied Linguistics but I successfuly changed my career. </p>
+          <p>I'm a self-taught web developer learning through MOOC's. 
+            I enjoy sharing my passion for <span class="main-text">Front End
+                Development</span> by building different projects. 
+        <p>Some are from my Front-End Web Development course at Udacity, with a scholorship from CodeDoor and SalesForce. On my radar at the moment is the React course at ReDi School for Digital Integration (Berlin,Germany).  </p>
+        
+            </p>
+          <p>I'm also following the freeCodeCamp curriculum, which I enjoyed a lot and I have completed the <strong>Responsive Web Design</strong>
+             Daily I'm progressing individually through the
+            <strong>JavaScript Algorithms and Data Structures</strong>, <strong>Front End Libraries - React, Redux
+            </strong> challenges</p>
+          
+          <ul>
+            <li>Responsive Web Design - HTML, CSS</li>
+            <li>JavaScript Algorithms and Data Structures</li>
+            <li>Front End Libraries - React, Redux, Sass</li>
+          </ul>
+        </p> 
+
+          <p class="text-center">Please consider me as a candidate 
+            for your next open full-time position as a Front-End Developer.</p>
+          <p class="check-progress">You can view my code via <span class="main-text">GitHub</span> or my progress
+            via <span class="main-text">
+              FreeCodeCamp</span> here</p>
+          <ul class="icons">
+            <li class="github-icon" title="GitHub Profile"><a href="https://github.com/irenapopova"
+                target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="fcc-icon" title="FreeCodeCamp Profile"><a href="https://www.freecodecamp.org/irena-popova"
+                target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
+            <li class="codepen-icon" title="Codepen Profile"><a href="https://codepen.io/##"
+                target="_blank"><i class="fab fa-codepen"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Skills  -->
+      <div class="skills-wrapper">
+        <h1 class="skills-title">My Skills</h1>
+        <div class="skills-container">
+          <ul class="skills icons">
+            <li class="html5-icon"><i class="fab fa-html5"></i> Html5</li>
+            <li class="css3-icon"><i class="fab fa-css3-alt"></i> Css3</li>
+            <li class="bootstrap-icon"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+            <li class="js-icon"><i class="fab fa-js-square"></i> JavaScript</li>
+            <li class="react-icon"><i class="fab fa-react"></i> ReactJS</li>
+            <li class="redux-icon"><img src="./images/redux-icon.svg" alt="redux-icon"> Redux</li>
+             <li class="graphql-icon"><img src="./images/graphql-icon.svg" alt="graphql-icon">GraphQL</li>
+            <li class="gatsby-icon"><img src="./images/gatsby-icon.svg" alt="gatsby-icon">GatsBy</li> 
+            <li class="npm-icon"><i class="fas fa-code-branch"></i> git</li>
+            <li class="npm-icon"><i class="fab fa-github-square"></i> GitHub</li>
+            <li class="npm-icon"><i class="fab fa-npm"></i> npm</li>
+            <li class="webpack-icon"><img src="./images/webpack-icon.svg" alt="webpack-icon"> Webpack</li>
+            <li class="babel-icon"><img src="./images/babel-icon.svg" alt="babel-icon"> Babel</li>
+            <li class="eslint-icon"><img src="./images/eslint-icon.svg" alt="eslint-icon"> Eslint</li>
+            <li class="eslint-icon"><img src="./images/node-icon.svg" alt="eslint-icon"> Node.js</li>
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact me -->
+    <section class="contact-container" id="contact-me">
+      <h1 class="contact-title">Contact Me</h1>
+      <p class="contact-text">Want to know more? Do not hesitate to drop me a line.</p>
+      <p class="email"><i class="fas fa-envelope"></i> Email - irenejpopova6@gmail.com</p>
+
+      
+
+      <ul class="contact-icons icons">
+        <li class="twitter-icon" title="Twitter"><a href="https://twitter.com/irenejpopova" target="_blank"><i
+              class="fab fa-twitter"></i></a></li>
+
+       
+        
+         <li class="linkedin-icon" title="LinkedIn"><a href="https://www.linkedin.com/in/irena-popova" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </li> 
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="icons">
+        <li class="github-icon" title="GitHub"><a href="https://github.com/irnapopova" target="_blank"><i
+              class="fab fa-github"></i></a></li>
+        <li class="fcc-icon" title="FreeCodeCamp"><a href="https://www.freecodecamp.org/irena-popova"
+            target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
+        <li class="codepen-icon" title="Codepen"><a href="https://codepen.io/###" target="_blank"><i
+              class="fab fa-codepen"></i></a></li>
+        <li class="twitter-icon" title="Twitter"><a href="https://twitter.com/irenejpopova" target="_blank"><i
+              class="fab fa-twitter"></i></a></li>
+
+       <li class="git-lab-icon" title="git-lab"><a href="https://www.git-lab.com/"
+            target="_blank"><i class="fab fa-git-lab-f"></i></a>
+        </li> 
+         <li class="Bitbucket-icon" title="Bitbucket"><a href="#" target="_blank"><i class="fab fa-bitbucket"></i></a>
+        </li> 
+      </ul>
+      <p>Made with <i class="fas fa-heart"></i> by Irena Popova</p>
+      <p>Copyright &copy <span id="year"></span>. All Rights Reserved</p>
+    </footer>
+  </div>
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+      

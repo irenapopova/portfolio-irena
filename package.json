@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irenapopova/portfolio-irena"
+  },
+  "keywords": [
+    "portfolio",
+    "irena",
+    "popova"
+  ],
+  "author": "Irena Popova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenapopova"
+  },
+  "homepage": "https://github.com/#",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.14.3"
+  }
+}
